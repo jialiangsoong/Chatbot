@@ -2,7 +2,7 @@
 
 const Telegraf = require('telegraf');
 const axios = require('axios');
-const bot = new Telegraf('1324308768:AAFJB99FzCRrrNwyYTA6HY6JDR0P89n2hNA');
+const bot = new Telegraf('[API key here]');
 
 // Whenever the bot is used
 bot.use((ctx, next) => 
